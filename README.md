@@ -3,8 +3,12 @@
 First you need to install NodeJS and NPM:
 
 There is 2 ways:
-1) sudo apt-get instal nodejs npm
-2) https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server
+
+    sudo apt-get instal nodejs npm
+
+or following this guide
+
+    https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server
 
 After installing NodeJS and NPM download color.js and package.json to a new directory, open terminal
 with this directory and run:
