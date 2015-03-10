@@ -14,9 +14,11 @@ with this directory and run:
 This will install all the dependencies.
 
 Then
+
     chmod 755 color.js
 
 Now you are ready to run the main script as follows:
 
-  ./color.js /path/to/target/directory
+    ./color.js /path/to/target/directory
+ 
  
