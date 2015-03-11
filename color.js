@@ -42,13 +42,15 @@ var download = function( $url, $dest, $callback ) {
     });
 };
 
-var $files = read( $targetPath, isHtml );
+var $files = read( $targetPath );
 
 $files.forEach( function( $file ) {
     var $fileName = $targetPath + '/' + $file;
 
     fs.readFile( $fileName, function( $err, $data ) {
         if( $err ) throw $err;
+
+        console.log('Processing file... ' + $fileName);
 
         $ = cheerio.load( $data );
 
