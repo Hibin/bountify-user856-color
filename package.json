@@ -1,6 +1,6 @@
 {
   "name": "average-color"
-  , "version": "0.1.0"
+  , "version": "0.1.1"
   , "description": "Detect average image color and append it to source HTML"
   , "main": "app.js"
   , "repository": ""
@@ -10,6 +10,7 @@
     , "color-thief": "^2.2.0"
     , "fs": "0.0.2"
     , "fs-readdir-recursive": "^0.1.0"
+    , "http": "0.0.0"
     , "minimatch": "^2.0.3"
   }
 }
